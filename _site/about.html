@@ -17,10 +17,10 @@
     
 <!-- Header with name/logo and menu this is consist on every page-->
 <header>
-  <div class="logo"> christina lyndal </div>
+  <div class="logo"> <a href="/">christina lyndal</a> </div>
     <div class="col-2">
-      <a href="christinalyndal.com/blog">Blog</a>
-      <a href="christinalyndal.com/about">About</a>
+      <a href="/blogmenu">Blog</a>
+      <a href="/about">About</a>
     </div>
   </div>
 </header>
@@ -43,17 +43,24 @@
 
 
   <div>
-  <h3> Subscribe here </h3>
-  <!--need to add in form and button -->
+    <h3> Subscribe here </h3>
+    <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
+      <input type="text" name="text" placeholder="Name">
+      <input type="email" name="email" placeholder="Your email">
+      <textarea name="message" placeholder="Your message"></textarea>
+      <button type="submit">Send</button>
+    </form>
   </div>
+
   <div>
-  <h3> Instagram </h3>
-  <!-- need to add insta link with one image -->
+    <h3> Instagram </h3>
+    <!-- need to add insta link with one image -->
   </div>
+
   <div>
-  <h3> Past blogs </h3>
-  <a href="christinalyndal.com/blog">Past Blogs</a>
-  <!-- need to add bg img -->
+    <h3> Past blogs </h3>
+    <a href="christinalyndal.com/blog">Past Blogs</a>
+    <!-- need to add bg img -->
   </div>
 
       </div>
@@ -65,8 +72,15 @@
     
 <!-- Footer includes h3 and link to subscribe -->
 <footer>
-  <h3> Follow my travel adventures </h3>
-  <!--need to add form link here -->
+
+  <h3> Hear about my travel adventures first! </h3>
+  <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
+  <input type="text" name="text" placeholder="Name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+
 </footer>
 
 

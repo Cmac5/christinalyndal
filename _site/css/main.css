@@ -16,3 +16,27 @@ font-family: 'Shadows Into Light', cursive; to be used for logo only
   color: white;
   font-family: 'Oswald', sans-serif;
 }
+
+.image-one {
+  background-image: url('../images/cuba-homepage.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+
+.image-two {
+  background-image: url('../images/20greateen-homepage.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  color: blue;
+  font-family: 'Oswald', sans-serif;
+}
+
+.image-three {
+  background-image: url('../images/hawaii-homepage.jpg');
+  min-height: 50vh;
+  background-size: cover;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}

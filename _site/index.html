@@ -17,10 +17,10 @@
     
 <!-- Header with name/logo and menu this is consist on every page-->
 <header>
-  <div class="logo"> christina lyndal </div>
+  <div class="logo"> <a href="/">christina lyndal</a> </div>
     <div class="col-2">
-      <a href="christinalyndal.com/blog">Blog</a>
-      <a href="christinalyndal.com/about">About</a>
+      <a href="/blogmenu">Blog</a>
+      <a href="/about">About</a>
     </div>
   </div>
 </header>
@@ -28,20 +28,20 @@
 
 <!-- don't forget to link content this is page content-->
         <!-- Banner section with bg image-->
-    <section class="banner bg.image">
+    <section class="banner bg-image">
       <h1> Christina Lyndal </h1>
       <p> Former travel agent now full time traveler </p>
     </section>
 
     <!-- Advert section each tile has bg image and h2 -->
     <section class="grid advert">
-      <div class="col-4 image-left">
+      <div class="col-4 image-one">
         <h2> Cuba </h2>
       </div>
-      <div class="col-4 image-middle">
+      <div class="col-4 image-two">
         <h2> 20greateen </h2>
       </div>
-      <div class="col-4 image-right">
+      <div class="col-4 image-three">
         <h2> Hawaii </h2>
     </section>
 
@@ -65,8 +65,15 @@
     
 <!-- Footer includes h3 and link to subscribe -->
 <footer>
-  <h3> Follow my travel adventures </h3>
-  <!--need to add form link here -->
+
+  <h3> Hear about my travel adventures first! </h3>
+  <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
+  <input type="text" name="text" placeholder="Name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
+
 </footer>
 
 
