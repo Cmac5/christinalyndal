@@ -1,0 +1,12 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.banner {
+  background-image: url('../images/beach-boardwalk-boat-132037.jpg');
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
