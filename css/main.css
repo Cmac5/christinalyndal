@@ -5,6 +5,12 @@
   border: 1px solid black;
 }
 
+/* fonts
+font-family: 'Oswald', sans-serif; to be used for all headings
+font-family: 'Merriweather', serif; to be used for all text <p>
+font-family: 'Shadows Into Light', cursive; to be used for logo only
+*/
+
 .banner {
   background-image: url('../images/beach-boardwalk-boat-132037.jpg');
   color: white;
