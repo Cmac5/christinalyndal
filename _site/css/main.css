@@ -57,12 +57,39 @@ a {
 footer {
   background-color: blue;
   color: white;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
+  padding: 5%;
 }
 
-footer form {
+footer h3 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.8rem;
+}
+
+form {
   width: 100%;
+  padding: 2% 21% 0;
+}
+
+footer form * {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 8px;
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+footer button {
+  border-radius: 8px;
+  background-color: #ecb300;
+  color: white;
+  border: 1px solid teal ;
+  transition: 1s;
+}
+
+footer textarea {
+  min-height: 150px;
 }
 
 .logo {
@@ -70,6 +97,10 @@ footer form {
   padding: 2%;
   border-collapse: collapse;
   font-size: 2rem;
+}
+
+.nav-menu{
+  padding-right: 3%;
 }
 
 header {
@@ -81,7 +112,7 @@ header {
   padding: 1rem;
 }
 
-h2 h3 h4 {
+h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -95,6 +126,10 @@ h2 {
 
 a {
   font-family: 'Merriweather', serif;
+}
+
+header a {
+  padding: 2% 4%;
 }
 
 /* First Banner */
@@ -145,7 +180,7 @@ a {
   text-align: center;
 }
 
-/* blog menu */
+/* travel page previously blog menu page */
 .blog-menu-image {
   background-image:
   url('../images/blog-menu-top-image.jpg');
@@ -173,6 +208,26 @@ a {
   text-align: center;
 }
 
+.sidebar form  {
+  width: 100%;
+  margin: 5px 5px;
+  padding: 6px 4px;
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+}
+.sidebar button {
+  border-radius: 8px;
+  background-color: #ecb300;
+  color: white;
+  border: 1px solid teal ;
+  transition: 1s;
+}
+
+.sidebar textarea {
+  min-height: 100px;
+}
+
+/* article section in about, blog post and travel pages */
 .post-body {
   padding-right: 3%;
 }
