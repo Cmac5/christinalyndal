@@ -16,9 +16,11 @@
 <!--this is the global site header to go on all pages -->
     
 <!-- Header with name/logo and menu this is consist on every page-->
-<header>
-  <div class="logo"> <a href="/">christina lyndal</a> </div>
-    <div class="col-2">
+<header class="grid-middle">
+  <div class="logo col-6">
+    <a href="/">christina lyndal</a>
+  </div>
+    <div class="col-6 right">
       <a href="/blogmenu">Blog</a>
       <a href="/about">About</a>
     </div>
@@ -30,20 +32,29 @@
     <!--have nested grids in this section -->
 <section class="grid">
   <div class="col-8 grid blog-menu">
-    
-    <div class="col-12">image here</div>
 
-    <div class="col-4 image-one"> image </div>
-    <div class="col-8"> <h3> Cuba </h3>
-      <p> Cuba is amazing and more cool stuff </p></div>
+      <div class="col-12 blog-menu-image">
+      <h2> Blog </h2>
+      </div>
 
-    <div class="col-4 image-two"> image </div>
-    <div class="col-8"> <h3> 20greateen </h3>
-      <p> Adventures still to come </p></div>
 
-    <div class="col-4 image-three"> image </div>
-    <div class="col-8"> <h3> Hawaii </h3>
-        <p> My absolute favourite destination! </p></div>
+    <div class="col-4 image-one"></div>
+    <div class="col-8 padded-3">
+      <h3 class="padded-3"> Cuba </h3>
+      <p> Cuba is amazing and more cool stuff </p>
+    </div>
+
+    <div class="col-4 image-two"></div>
+    <div class="col-8 padded-3">
+      <h3 class="padded-3"> 20greateen </h3>
+      <p> Adventures still to come </p>
+    </div>
+
+    <div class="col-4 image-three"></div>
+    <div class="col-8 padded-3">
+      <h3 class="padded-3"> Hawaii </h3>
+      <p> My absolute favourite destination! </p>
+    </div>
 
     </div>
 
@@ -54,7 +65,7 @@
 <!-- sidebar section -->
 
 
-  <div>
+  <div class=" sidebar subscribe padded-2">
     <h3> Subscribe here </h3>
     <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
       <input type="text" name="text" placeholder="Name">
@@ -64,12 +75,14 @@
     </form>
   </div>
 
-  <div>
-    <h3> Instagram </h3>
-    <!-- need to add insta link with one image -->
+  <div class="padded-2">
+    <h3>
+      <a href="https://www.instagram.com/chrislm5/">Follow me</a>
+    </h3>
+    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/05dba73bf04c5a069102a8aec0e51e77.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
   </div>
 
-  <div>
+  <div class="past-blog-sidebar-image padded-2">
     <h3> Past blogs </h3>
     <a href="christinalyndal.com/blog">Past Blogs</a>
     <!-- need to add bg img -->
@@ -83,7 +96,7 @@
 <!-- this is the global site footer to go on all pages -->
     
 <!-- Footer includes h3 and link to subscribe -->
-<footer>
+<footer class="padded-2">
 
   <h3> Hear about my travel adventures first! </h3>
   <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">

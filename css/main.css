@@ -2,41 +2,161 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  border: 1px solid black;
+  border: 1px solid rgb(245,245,245);
 }
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
+}
+
+body {
+  padding-top: 8rem; /* this makes space for the sticky nav */
+}
+
+img {
+  max-width: 100%;
+}
+
+/* typography styles */
 
 /* fonts
 font-family: 'Oswald', sans-serif; to be used for all headings
 font-family: 'Merriweather', serif; to be used for all text <p>
 font-family: 'Shadows Into Light', cursive; to be used for logo only
 */
+/* - - - - - - - Utility Classes - - - - - -  */
+.left   {   text-align: left; }
+.right  {   text-align: right; }
+.center {   text-align: center; }
+
+.padded-1     { padding: 1%;  }
+.padded-2     { padding: 2%;  }
+.padded-3     { padding: 3%;  }
+.no-padding   { padding: 0;   }
+
+/* Header & footer */
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+footer form {
+  width: 100%;
+}
+
+.logo {
+  font-family: 'Shadows Into Light', cursive;
+  padding: 2%;
+  border-collapse: collapse;
+  font-size: 2rem;
+}
+
+header {
+  position: fixed;
+  top:0;
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid rgb(250,250,250);
+  padding: 1rem;
+}
+
+h2 h3 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p a {
+  font-family: 'Merriweather', serif;
+}
+
+
+/* First Banner */
 
 .banner {
   background-image: url('../images/beach-boardwalk-boat-132037.jpg');
   color: white;
   font-family: 'Oswald', sans-serif;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.advert {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  border: 1px solid blue;
+  margin: 2%;
+}
+
+[class*=image-] {
+  min-height: 50vh;
+  background-size: cover;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border: 10px solid white;
+  max-width: 100%;
 }
 
 .image-one {
   background-image: url('../images/cuba-homepage.jpg');
-  min-height: 50vh;
-  background-size: cover;
-  color: white;
-  font-family: 'Oswald', sans-serif;
 }
 
 .image-two {
   background-image: url('../images/20greateen-homepage.jpg');
-  min-height: 50vh;
-  background-size: cover;
-  color: blue;
-  font-family: 'Oswald', sans-serif;
 }
 
 .image-three {
   background-image: url('../images/hawaii-homepage.jpg');
-  min-height: 50vh;
-  background-size: cover;
-  color: white;
+
+}
+
+.instagram {
   font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+/* blog menu */
+.blog-menu-image {
+  background-image:
+  url('../images/blog-menu-top-image.jpg');
+  color: white;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+/* sidebar */
+.past-blog-sidebar-image {
+  background-image:
+  url('../images/past-blog-sidebar.jpg');
+  color: white;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+.subscribe {
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.sidebar {
+  text-align: center;
 }
