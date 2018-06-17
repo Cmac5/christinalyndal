@@ -10,14 +10,17 @@ layout: default
       <h2> Blog </h2>
       </div>
 
+    {% for post in site.posts limit:6 %}
+      <div class="col-4 image-one" style="background-image: url({{post.image_path}})"></div>
 
-    <div class="col-4 image-one"></div>
-    <div class="col-8 padded-3">
-      <h3 class="padded-3"> Cuba </h3>
-      <p> Cuba is amazing and more cool stuff </p>
-    </div>
+      <div class="col-8">
+        <h3 class="padded-3"> <a href="{{post.url}}"> {{post.title}} </a></h3>
+        <p> Cuba is amazing and more cool stuff </p>
+      </div>
+    {% endfor %}
 
-    <div class="col-4 image-two"></div>
+
+    <!-- <div class="col-4 image-two"></div>
     <div class="col-8 padded-3">
       <h3 class="padded-3"> 20greateen </h3>
       <p> Adventures still to come </p>
@@ -27,7 +30,7 @@ layout: default
     <div class="col-8 padded-3">
       <h3 class="padded-3"> Hawaii </h3>
       <p> My absolute favourite destination! </p>
-    </div>
+    </div> -->
 
     </div>
 
