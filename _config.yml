@@ -56,7 +56,7 @@ autopages:
     layouts:
       - 'archive.html'
     # Optional, the title that each category paginate page should get (:cat is replaced by the Category name)
-    title: ':cat archive'
+    title: ':cat'
     # Optional, the permalink for the  pagination page (:cat is replaced),
     permalink: '/:cat'
     # Collection pages, omit to disable

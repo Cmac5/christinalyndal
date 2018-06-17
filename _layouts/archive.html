@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<!--have nested grids in this section -->
+<section class="grid">
+
+  <article class="col-8 grid blog-menu">
+
+      <div class="col-12 grid-middle-center blog-menu-image">
+
+          <h2> {{ page.title }} </h2>
+
+      </div>
+
+    {% for post in site.posts limit:6 %}
+      <div class="col-4 image-one" style="background-image: url({{post.image_path}})"></div>
+
+      <div class="col-8">
+        <h3 class="padded-3"> <a href="{{post.url}}"> {{post.title}} </a></h3>
+        <p> Cuba is amazing and more cool stuff </p>
+      </div>
+    {% endfor %}
+
+  </article>
+
+  <!-- sidebar section -->
+  <aside class="col-4 sidebar">
+    {% include site-sidebar.html %}
+  </aside>
+
+</section>

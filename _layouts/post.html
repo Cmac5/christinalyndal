@@ -7,9 +7,10 @@ permalink: /:year/:month/:day
 
 <section class="grid">
 
-  <div class="col-8 post-body">
+  <article class="col-8 post-body">
 
     <h1> {{page.title}} </h1>
+    <hr>
 
     <p class="post-meta">{{page.date | date_to_string }} |
       Written by {{page.author}}</p>
@@ -18,13 +19,10 @@ permalink: /:year/:month/:day
 
     {{ content }}
 
-    <hr>
+  </article>
 
-
-  </div>
-
-  <div class="col-4 sidebar">
+  <aside class="col-4 sidebar">
     {% include site-sidebar.html %}
-  </div>
+  </aside>
 
 </section>

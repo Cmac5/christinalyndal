@@ -40,6 +40,13 @@ font-family: 'Shadows Into Light', cursive; to be used for logo only
 .padded-3     { padding: 3%;  }
 .no-padding   { padding: 0;   }
 
+/* Padding & Margin */
+
+header, footer  { padding: 2vh 5%; }
+
+.col,
+[class*=col-]   { padding: 2%; }
+
 /* Header & footer */
 
 a {
@@ -89,7 +96,6 @@ p a {
   font-family: 'Merriweather', serif;
 }
 
-
 /* First Banner */
 
 .banner {
@@ -125,6 +131,7 @@ p a {
 
 .image-two {
   background-image: url('../images/20greateen-homepage.jpg');
+  color: blue;
 }
 
 .image-three {
