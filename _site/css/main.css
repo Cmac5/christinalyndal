@@ -72,7 +72,8 @@ form {
   padding: 2% 21% 0;
 }
 
-footer form * {
+/* footer  */
+form * {
   width: 100%;
   margin: 10px 0;
   padding: 12px 8px;
@@ -153,7 +154,7 @@ header a {
 }
 
 [class*=image-] {
-  min-height: 50vh;
+  min-height: 30vh;
   background-size: cover;
   color: white;
   font-family: 'Oswald', sans-serif;
@@ -208,12 +209,9 @@ header a {
   text-align: center;
 }
 
-.sidebar form  {
-  width: 100%;
-  margin: 5px 5px;
-  padding: 6px 4px;
+.sidebar form  *{
+  padding: 8px 6px;
   font-size: 1rem;
-  font-family: 'Oswald', sans-serif;
 }
 .sidebar button {
   border-radius: 8px;
