@@ -153,6 +153,7 @@ header a {
   margin: 2%;
 }
 
+/* changed min-height from 50vh works well in archive page but not sure about home page */
 [class*=image-] {
   min-height: 30vh;
   background-size: cover;
