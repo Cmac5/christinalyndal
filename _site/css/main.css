@@ -17,6 +17,7 @@
 body {
   padding-top: 8rem;
   /* this makes space for the sticky nav */
+  font-family: 'Merriweather', serif;
 }
 
 img {
@@ -92,7 +93,7 @@ h2 {
   font-size: 1.8rem;
 }
 
-p a {
+a {
   font-family: 'Merriweather', serif;
 }
 
@@ -170,4 +171,8 @@ p a {
 
 .sidebar {
   text-align: center;
+}
+
+.post-body {
+  padding-right: 3%;
 }
