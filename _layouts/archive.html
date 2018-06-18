@@ -3,18 +3,20 @@ layout: default
 ---
 
 <!--have nested grids in this section -->
-<section class="grid">
+<section class="grid-middle travel-banner bg-image">
+  <div class="col-12">
+      <p> Travel-Adventures </p>
+  </div>
+</section>
 
-    <article class="col-9 grid blog-menu">
+<article class="grid col-9 blog-menu">
       <!--<div class="col-8 blog-menu"> -->
-      <div class="col-12 grid-middle-center bg-image blog-menu-image">
+      <!-- <div class="grid-middle-center bg-image blog-menu-image"> -->
 
           <h2> {{ page.title }} </h2>
 
-      </div>
-
     {% for post in site.posts limit:6 %}
-      <div class="col-4 bg-image image-one" style="background-image: url({{post.image_path}})"></div>
+      <div class="grid col-4 bg-image image-one" style="background-image: url({{post.image_path}})"></div>
 
       <div class="col-8">
         <h3 class="padded-3"> <a href="{{post.url}}"> {{post.title}} </a></h3>

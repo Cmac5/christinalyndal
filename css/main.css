@@ -222,11 +222,13 @@ header a {
 
 /* sidebar */
 .past-blog-sidebar-image {
-  background-image:
-  url('../images/past-blog-sidebar.jpg');
-  color: white;
+  /* background-image:
+  url('../images/past-blog-sidebar.jpg'); */
+  color: #313e50;
   background-size: cover;
-  min-height: 50vh;
+  background-color: white;
+  font-size: 1.5rem;
+  /* min-height: 50vh */
 }
 
 /* .subscribe {
@@ -258,4 +260,17 @@ header a {
 /* article section in about, blog post and travel pages */
 .post-body {
   padding-right: 3%;
+}
+
+
+/* about me page */
+
+.travel-banner {
+  background-image: url('../images/blog-menu-top-image/jpg');
+  color: white;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Shadows Into Light', cursive;
 }
