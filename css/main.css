@@ -293,6 +293,10 @@ header a {
   line-height: 1.45;
 }
 
+.post-banner h1 {
+  font-size: 3rem;
+}
+
 /* about me page */
 
 .banner {
@@ -319,6 +323,18 @@ header a {
   font-size: 2rem;
 }
 
+.aboutme p {
+  margin-bottom: 1.5rem;
+  line-height: 1.45;
+}
+
+.aboutme h3 {
+  margin-top: 1.5rem;
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 3%;
+}
+
 .sidebar h3 {
   font-size: 2rem;
 }
@@ -326,11 +342,21 @@ header a {
 
 .sidebar hr {
   border: none;
-  border-bottom: 3px solid green;
+  border-bottom: 3px solid #313e50;
   width: 50px;
   margin: auto;
   padding-bottom: 2%;
   margin-bottom: 2%;
+}
+
+/*
+.instagram hr {
+  border: none;
+  border-bottom: 3px solid #313e50;
+  width: 50px;
+  margin: auto;
+*/
+
 }
 
 
