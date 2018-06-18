@@ -277,12 +277,15 @@ header a {
 
 .sidebar ul {
   list-style: none;
-
 }
 
 /* article section in about, blog post and travel pages */
 .post-body {
   padding-right: 3%;
+}
+
+.post-body h1 {
+  font-size: 3rem;
 }
 
 
