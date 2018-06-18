@@ -52,6 +52,7 @@ font-family: 'Merriweather Sans', sans-serif;
 .padded-2     { padding: 2%;  }
 .padded-3     { padding: 3%;  }
 .no-padding   { padding: 0;   }
+.padded-bottom { padding-bottom: 1%; }
 
 /* Padding & Margin */
 
@@ -151,10 +152,6 @@ header.scrolled-nav .logo {
   font-size: 1.5rem;
 }
 
-header a {
-
-}
-
 h2, h3, h4 {
   font-family: 'Shadows Into Light', cursive;
 }
@@ -174,6 +171,7 @@ a {
 header a {
   padding: 2% 4%;
   font-size: 1.4rem;
+  color: white;
 }
 
 /* First Banner */
@@ -183,6 +181,15 @@ header a {
   font-family: 'Shadows Into Light', cursive;
   /* border: 1px solid blue;
   margin: 2%; */
+}
+
+.advert a {
+  color: #313e50;
+  font-size: 1.8rem;
+}
+
+.advert .image-one a {
+  color: #efe9e7;
 }
 
 .advert, .bg-image {
@@ -216,6 +223,10 @@ header a {
   font-family: 'Handlee', cursive;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.fab {
+  padding: 3px;
 }
 
 /* travel page previously blog menu page */
@@ -292,11 +303,12 @@ header a {
 
 .travel-banner {
   background-image: url('/images/blog-menu-top-image.jpg');
-
+  font-size: 2rem;
 }
 
 .about-banner {
-  background-image: url('/images/blog-menu-top-image.jpg');
+  background-image: url('/images/aboutme-fourth-image.jpg');
+  font-size: 2rem;
 }
 
 
