@@ -288,6 +288,10 @@ header a {
   font-size: 3rem;
 }
 
+.post-body p {
+  margin-bottom: 1.5rem;
+  line-height: 1.45;
+}
 
 /* about me page */
 
@@ -297,6 +301,7 @@ header a {
   min-height: 100vh;
   text-align: center;
   font-family: 'Shadows Into Light', cursive;
+  background-attachment: fixed;
 }
 
 .home-banner{
@@ -314,13 +319,18 @@ header a {
   font-size: 2rem;
 }
 
+.sidebar h3 {
+  font-size: 2rem;
+}
+
 
 .sidebar hr {
   border: none;
   border-bottom: 3px solid green;
   width: 50px;
-  padding-bottom: 4%;
   margin: auto;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 
