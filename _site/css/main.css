@@ -24,6 +24,10 @@ img {
   max-width: 100%;
 }
 
+.bg-image {
+  background-color: #8d918b;
+}
+
 /* typography styles */
 
 /* fonts
@@ -76,6 +80,14 @@ footer h3 {
   font-size: 1.8rem;
 }
 
+footer p {
+  font-size: 1.2rem;
+}
+
+footer a {
+  color: white;
+}
+
 form {
   width: 100%;
   padding: 2% 18% 0;
@@ -84,10 +96,13 @@ form {
 /* footer  */
 form * {
   width: 100%;
-  margin: 10px 0;
-  padding: 12px 8px;
+  margin: 8px 0;
+  padding: 12px;
   font-size: 1rem;
   font-family: 'Handlee', cursive;
+  border-radius: 8px;
+  outline: none;
+  border: none;
 }
 
 footer button {
@@ -97,8 +112,10 @@ footer button {
   border: 1px solid #313e50 ;
 }
 
-footer textarea {
-  min-height: 120px;
+.footer-image {
+  border-color: #313e50;
+  border-radius: 995px;
+  width: 160px;
 }
 
 .logo {
@@ -139,6 +156,7 @@ a {
 
 header a {
   padding: 2% 4%;
+  font-size: 1.4rem;
 }
 
 /* First Banner */
@@ -187,7 +205,7 @@ header a {
 .instagram {
   font-family: 'Handlee', cursive;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 /* travel page previously blog menu page */

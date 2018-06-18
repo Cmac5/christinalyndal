@@ -39,7 +39,7 @@
     </section>
 
     <!-- Advert section each tile has bg image and h2 -->
-    <section class="grid advert padded-2">
+    <section class="grid advert bg-image padded-2">
 
       <div class="col-4 grid-middle image-one">
           <h2 class="col-12">
@@ -84,16 +84,22 @@
 <!-- this is the global site footer to go on all pages -->
     
 <!-- Footer includes h3 and link to subscribe -->
-<footer class="padded-2">
+<footer class="grid-middle padded-2">
 
-  <h3> Hear about my travel adventures first! </h3>
-  <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
-  <input type="text" name="text" placeholder="Name">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
-</form>
+  <div class="col-6">,
+    <img class="footer-image" src="/images/aboutme-footer-image.jpg">
+    <p>After working in the travel industry for over a decade I decide it's time to ditch the office and travel full-time!</p>
+    <p> To hear more about me click <a href="/about">HERE </p>
+  </div>
 
+  <div class="col-6">
+    <h3> Hear about my travel adventures first! </h3>
+    <form method="POST" action="https://formspree.io/christinamacdonald5@gmail.com">
+    <input type="text" name="text" placeholder="Name">
+    <input type="email" name="email" placeholder="Your email">
+    <button type="submit">Sign up for my newsletter</button>
+    </form>
+  </div>
 </footer>
 
 
