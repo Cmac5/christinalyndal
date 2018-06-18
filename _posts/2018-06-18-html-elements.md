@@ -9,5 +9,3 @@ categories:
   - adventure
 author: Christina Lyndal
 ---
-
-Elements go here.
