@@ -6,10 +6,12 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="/css/gridlex.min.css">
-    <link rel="stylesheet" href="/css/main.css">
+
     <link href="https://fonts.googleapis.com/css?family=Handlee|Merriweather+Sans:300|Satisfy|Shadows+Into+Light" rel="stylesheet">
     <!--<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Oswald|Shadows+Into+Light" rel="stylesheet"> -->
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/css/main.css">
   </head>
 
   <body class="menu-hidden">
@@ -31,41 +33,41 @@
 
 <!-- don't forget to link content this is page content-->
     <!--have nested grids in this section -->
-<section class="grid-middle travel-banner bg-image">
-  <div class="col-12">
-      <p> Travel-Adventures </p>
-  </div>
-</section>
+<section class="grid bg-image">
 
-<article class="grid col-9 blog-menu">
+  <div class="col-12 grid-middle-center banner travel-banner">
+      <h1> travel </h1>
+      <a id="up" href="#down"><span></span></a>
+  </div>
+
+  <div id="down" class="padded-3"></div>
+
+  <article class="grid col-9 blog-menu">
       <!--<div class="col-8 blog-menu"> -->
       <!-- <div class="grid-middle-center bg-image blog-menu-image"> -->
-
-          <h2> travel </h2>
-
     
-      <div class="grid col-4 bg-image image-one" style="background-image: url(/images/cuba-homepage.jpg)"></div>
+      <div class="grid col-4 image-one" style="background-image: url(/images/cuba-homepage.jpg)"></div>
 
       <div class="col-8">
-        <h3 class="padded-3"> <a href="/travel/adventure/2018/06/10/Cuba.html"> Cuba </a></h3>
+        <h2 class="padded-3"> <a href="/travel/adventure/2018/06/10/Cuba.html"> Cuba </a></h2>
         <p> Cuba is amazing and more cool stuff
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
     
-      <div class="grid col-4 bg-image image-one" style="background-image: url(/images/20greateen-homepage.jpg)"></div>
+      <div class="grid col-4 image-one" style="background-image: url(/images/20greateen-homepage.jpg)"></div>
 
       <div class="col-8">
-        <h3 class="padded-3"> <a href="/travel/adventure/2018/06/01/20greateen.html"> 20greateen </a></h3>
+        <h2 class="padded-3"> <a href="/travel/adventure/2018/06/01/20greateen.html"> 20greateen </a></h2>
         <p> Cuba is amazing and more cool stuff
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </div>
     
-      <div class="grid col-4 bg-image image-one" style="background-image: url(/images/hawaii-homepage.jpg)"></div>
+      <div class="grid col-4 image-one" style="background-image: url(/images/hawaii-homepage.jpg)"></div>
 
       <div class="col-8">
-        <h3 class="padded-3"> <a href="/travel/adventure/2018/05/10/hawaii.html"> Hawaii </a></h3>
+        <h2 class="padded-3"> <a href="/travel/adventure/2018/05/10/hawaii.html"> Hawaii </a></h2>
         <p> Cuba is amazing and more cool stuff
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
@@ -92,16 +94,28 @@
   </div> -->
   <!-- <div class="padded-2"> -->
     <h3>
-      <a href="https://www.instagram.com/chrislm5/">Follow me on Instagram</a>
+      <a href="https://www.instagram.com/chrislm5/" target="_blank"><i class="fab fa-instagram"></i> Follow me on Instagram</a>
     </h3>
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e31cc138227c5c23a97e23ee58c3b71e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+    <hr>
+
+    <!-- LightWidget WIDGET -->
+    <!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e31cc138227c5c23a97e23ee58c3b71e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
+
   </div>
 
   <div class="past-blog-sidebar-image padded-2">
-    <a href="/travel">Past Adventures</a>
-    <h4> - Cuba </h4>
-    <h4> - 20greateen </h4>
-    <h4> - Hawaii </h4>
+    <h3><a href="/travel">Past Adventures</a></h3>
+    <hr>
+    <ul>
+      
+        <li><a href="/travel/adventure/2018/06/10/Cuba.html"> Cuba </a></li>
+      
+        <li><a href="/travel/adventure/2018/06/01/20greateen.html"> 20greateen </a></li>
+      
+        <li><a href="/travel/adventure/2018/05/10/hawaii.html"> Hawaii </a></li>
+      
+    </ul>
   </div>
 
   </aside>

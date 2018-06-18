@@ -14,14 +14,22 @@
   </div> -->
   <!-- <div class="padded-2"> -->
     <h3>
-      <a href="https://www.instagram.com/chrislm5/">Follow me on Instagram</a>
+      <a href="https://www.instagram.com/chrislm5/" target="_blank"><i class="fab fa-instagram"></i> Follow me on Instagram</a>
     </h3>
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e31cc138227c5c23a97e23ee58c3b71e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+
+    <hr>
+
+    <!-- LightWidget WIDGET -->
+    <!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e31cc138227c5c23a97e23ee58c3b71e.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
+
   </div>
 
   <div class="past-blog-sidebar-image padded-2">
-    <a href="/travel">Past Adventures</a>
-    <h4> - Cuba </h4>
-    <h4> - 20greateen </h4>
-    <h4> - Hawaii </h4>
+    <h3><a href="/travel">Past Adventures</a></h3>
+    <hr>
+    <ul>
+      {% for post in site.posts %}
+        <li><a href="{{post.url}}"> {{post.title}} </a></li>
+      {% endfor %}
+    </ul>
   </div>
