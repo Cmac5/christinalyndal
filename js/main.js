@@ -27,12 +27,12 @@ $(document).ready(function() {
 
   });
 
-  // TINT ARROW
-  $('#up, #down').on('click', function(e){
+  // TINY ARROW
+  $('#down').on('click', function(e){
       e.preventDefault();
-      var target= $(this).get(0).id == 'up' ? $('#down') : $('#up');
+      var target = $(this).get(0).id == 'up' ? $('#down') : $('#up');
       $('html, body').stop().animate({
-         scrollTop: target.offset().top
+         scrollTop: target.offset().top + 100
       }, 1000);
   });
 

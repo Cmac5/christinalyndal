@@ -192,13 +192,17 @@ header a {
   color: #efe9e7;
 }
 
+.advert .image-three a {
+  color: white;
+}
+
 .advert, .bg-image {
   background-color: white;
 }
 
 /* changed min-height from 50vh works well in archive page but not sure about home page */
 [class*=image-] {
-  min-height: 30vh;
+  min-height: 40vh;
   background-size: cover;
   color: white;
   font-family: 'Shadows Into Light', cursive;
@@ -217,6 +221,10 @@ header a {
 .image-three {
   background-image: url('../images/hawaii-homepage.jpg');
 
+}
+
+.map {
+  margin-top: 3rem;
 }
 
 .instagram {
@@ -300,6 +308,7 @@ header a {
 /* about me page */
 
 .banner {
+  position: relative;
   color: white;
   background-size: cover;
   min-height: 100vh;
@@ -323,7 +332,7 @@ header a {
   font-size: 2rem;
 }
 
-p .aboutme {
+p {
   margin-bottom: 1.5rem;
   line-height: 1.45;
 }
@@ -356,13 +365,11 @@ p .aboutme {
 /* Scroll to icon */
 #up {
   background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;
-  position: absolute;
-  bottom: 10%;
 }
 
 #up span {
   position: absolute;
-  top: 0;
+  bottom: 30px;
   left: 50%;
   width: 24px;
   height: 24px;
@@ -374,6 +381,10 @@ p .aboutme {
   -webkit-animation: sdb04 2s infinite;
   animation: sdb04 2s infinite;
   box-sizing: border-box;
+}
+
+#down {
+
 }
 
 @-webkit-keyframes sdb04 {
