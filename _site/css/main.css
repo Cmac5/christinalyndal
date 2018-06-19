@@ -323,16 +323,9 @@ header a {
   font-size: 2rem;
 }
 
-.aboutme p {
+p .aboutme {
   margin-bottom: 1.5rem;
   line-height: 1.45;
-}
-
-.aboutme h3 {
-  margin-top: 1.5rem;
-  font-size: 2.2rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 3%;
 }
 
 .sidebar h3 {
